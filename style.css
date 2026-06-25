@@ -1,0 +1,63 @@
+
+/* to do list */
+.todolist {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+   
+    border-radius: 4px;
+    list-style: none;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-centang {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-hapus {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
